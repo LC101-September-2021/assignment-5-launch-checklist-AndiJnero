@@ -11,8 +11,8 @@ window.addEventListener("load", function() {
 
     list.style.visibility = "hidden";
     
-    let testForm = document.querySelector("testForm");
-    testForm.addEventListener("submit", function(event) {
+    let form = document.querySelector("form");
+    form.addEventListener("submit", function(event) {
         formSubmission(document, list, pilot.value, copilot.value, fuelLevel.value, cargoLevel.value);
         
 
